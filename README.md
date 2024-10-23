@@ -1,6 +1,6 @@
 # SnipIt (URL Shortener)
 
-This is a simple URL shortener built using Django, allowing users to shorten long URLs and retrieve the original URLs via a shortened link. It stores the shortened URL, tracks the number of hits, and the URL expires after 30 days. The architecture consists of a single Django app (`shortener`) with two key API endpoints: one for generating shortened URLs and another for retrieving the original URL.
+This is a simple URL shortener built using Django, allowing users to shorten long URLs and retrieve the original URLs via a shortened link. It stores the shortened URL, tracks the number of hits, and the URL expires after a configured time. The architecture consists of a single Django app (`snipit`) with two key API endpoints: one for generating shortened URLs and another for retrieving the original URL.
 
 ## How it works
 
